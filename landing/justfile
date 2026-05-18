@@ -1,0 +1,17 @@
+set shell := ["bash", "-uc"]
+
+# Run landing page dev server
+run:
+    npm start
+
+# Build landing page
+build:
+    npm run build
+
+# Test landing page
+test:
+    npm test
+
+# Install dependencies
+deps:
+    npm install
